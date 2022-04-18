@@ -51,6 +51,9 @@ resources:
     cpu: 100m
     memory: 200Mi
 
+# Labels to be added to pods
+podLabels: {}
+
 # Annotations to be added to pods
 podAnnotations: {}
 
