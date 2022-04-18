@@ -23,8 +23,8 @@ namespace: flink-operator-system
 namePrefix: flink-operator-
 
 # Labels to add to all resources and selectors.
-#commonLabels:
-#  someName: someValue
+commonLabels:
+  compass: flink-operator
 
 bases:
   - ../crd
